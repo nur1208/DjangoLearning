@@ -1,4 +1,34 @@
-@endpoint = "http://127.0.0.1:8000"
+@endpoint = http://127.0.0.1:8000/v1/api
+@products_route = products
+
+POST {{endpoint}}?apc=3
+Content-Type: application/json
+
+{
+
+    "content":"welcome"
+}
+
+###
+
+GET {{endpoint}}/{{products_route}}/12/
+
+###
+
+POST {{endpoint}}/{{products_route}}/
+Content-Type: application/json
+
+{
+    "title":"title here",
+    "price":1000
+}
 
 
-GET {{endpoint}}
+###
+
+PUT {{endpoint}}/{{products_route}}/12/update/
+Content-Type: application/json
+
+{
+    "title":"title there"
+}

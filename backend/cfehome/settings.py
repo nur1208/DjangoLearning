@@ -39,8 +39,29 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     "api",
-    "products"
+    "products",
+    'django_clickhouse',
+    "tests"
 ]
+
+
+# django-clickhouse library setup
+CLICKHOUSE_DATABASES = {
+    # Connection name to refer in using(...) method 
+    'default': {
+        'db_name': 'sample',
+        'username': 'default',
+        'password': 'nur'
+    }
+}
+
+CLICKHOUSE_REDIS_CONFIG = {
+    'host': '127.0.0.1',
+    'port': 6379,
+    'db': 8,
+    'socket_timeout': 10
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,3 +155,16 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CLICKHOUSE_CELERY_QUEUE = 'clickhouse'
+
+# If you have no any celerybeat tasks, define a new dictionary
+# More info: http://docs.celeryproject.org/en/v2.3.3/userguide/periodic-tasks.html
+from datetime import timedelta
+CELERYBEAT_SCHEDULE = {
+    'clickhouse_auto_sync': {
+        'task': 'django_clickhouse.tasks.clickhouse_auto_sync',
+        'schedule': timedelta(seconds=2),  # Every 2 seconds
+        'options': {'expires': 1, 'queue': CLICKHOUSE_CELERY_QUEUE}
+    }
+}

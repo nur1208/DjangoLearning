@@ -1,0 +1,15 @@
+{
+  "name": "DjangoLearning",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nur1208/DjangoLearning.git",
+  "author": "nur <medo0o6665@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@rodrigogs/mysql-events": "^0.6.0",
+    "clickhouse": "^2.4.4",
+    "mysql": "^2.18.1",
+    "ora": "^6.1.0"
+  }
+}

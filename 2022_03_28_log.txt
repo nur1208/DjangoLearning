@@ -1,0 +1,473 @@
+C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2022-03-27T18:37:25.828620Z	   43 Query	show variables like '%general_log%'
+2022-03-27T18:38:26.673621Z	   44 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:38:26.674859Z	   44 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:38:26.694137Z	   44 Query	SELECT VERSION()
+2022-03-27T18:38:27.710653Z	   44 Query	show variables like '%general_log%'
+2022-03-27T18:40:05.561845Z	   45 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:40:05.562575Z	   45 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:40:05.578603Z	   45 Query	SELECT VERSION()
+2022-03-27T18:40:06.580475Z	   45 Query	show variables like '%general_log%'
+2022-03-27T18:42:14.286752Z	   46 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:42:14.287311Z	   46 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:42:14.310118Z	   46 Query	SELECT VERSION()
+2022-03-27T18:42:15.315060Z	   46 Query	show variables like '%general_log%'
+2022-03-27T18:42:15.322080Z	   46 Query	show variables like 'general_log_file'
+2022-03-27T18:45:09.510463Z	   47 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:45:09.511287Z	   47 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:45:09.513754Z	   47 Query	SELECT VERSION()
+2022-03-27T18:45:10.515900Z	   47 Query	show variables like '%general_log%'
+2022-03-27T18:45:10.523074Z	   47 Query	show variables like 'general_log_file'
+2022-03-27T18:45:40.524738Z	   10 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T18:46:28.953201Z	   48 Connect	root@localhost on  using TCP/IP
+2022-03-27T18:46:28.953561Z	   48 Query	set autocommit=1
+2022-03-27T18:46:28.953845Z	   48 Query	SELECT current_user()
+2022-03-27T18:46:28.954482Z	   48 Query	SET CHARACTER SET utf8
+2022-03-27T18:46:28.954847Z	   48 Query	SET NAMES utf8
+2022-03-27T18:46:28.955174Z	   48 Query	SELECT CONNECTION_ID()
+2022-03-27T18:46:28.955548Z	   48 Query	show character set where charset = 'utf8mb4'
+2022-03-27T18:46:28.991260Z	   48 Query	SET NAMES 'utf8mb4'
+2022-03-27T18:46:28.991615Z	   48 Query	SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2022-03-27T18:46:28.995713Z	   48 Query	USE `sample`
+2022-03-27T18:46:28.996129Z	   48 Query	set autocommit=1
+2022-03-27T18:46:28.998473Z	   48 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T18:47:23.544662Z	   47 Quit	
+2022-03-27T18:47:28.622342Z	   49 Connect	root@localhost on  using TCP/IP
+2022-03-27T18:47:28.622650Z	   49 Query	set autocommit=1
+2022-03-27T18:47:28.622944Z	   49 Query	SELECT current_user()
+2022-03-27T18:47:28.623369Z	   49 Query	SET CHARACTER SET utf8
+2022-03-27T18:47:28.623654Z	   49 Query	SET NAMES utf8
+2022-03-27T18:47:28.623914Z	   49 Query	SELECT CONNECTION_ID()
+2022-03-27T18:47:28.624238Z	   49 Query	show character set where charset = 'utf8mb4'
+2022-03-27T18:47:28.626207Z	   49 Query	SET NAMES 'utf8mb4'
+2022-03-27T18:47:28.628563Z	   49 Query	SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2022-03-27T18:47:28.632173Z	   49 Query	USE `sample`
+2022-03-27T18:47:28.633907Z	   49 Query	set autocommit=1
+2022-03-27T18:47:28.636919Z	   49 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2022-03-27T18:50:05.877254Z	    9 Query	show variables like '%general_log%'
+2022-03-27T18:50:05.885493Z	    9 Query	show variables like 'general_log_file'
+2022-03-27T18:50:33.433418Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T18:52:24.309620Z	    9 Quit	
+2022-03-27T18:52:27.157243Z	   10 Connect	root@localhost on  using TCP/IP
+2022-03-27T18:52:27.157522Z	   10 Query	set autocommit=1
+2022-03-27T18:52:27.157766Z	   10 Query	SELECT current_user()
+2022-03-27T18:52:27.158085Z	   10 Query	SET CHARACTER SET utf8
+2022-03-27T18:52:27.158500Z	   10 Query	SET NAMES utf8
+2022-03-27T18:52:27.158807Z	   10 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2022-03-27T18:52:27.162682Z	   10 Query	SELECT CONNECTION_ID()
+2022-03-27T18:52:27.163074Z	   10 Query	show character set where charset = 'utf8mb4'
+2022-03-27T18:52:27.164374Z	   10 Query	SET NAMES 'utf8mb4'
+2022-03-27T18:52:27.164753Z	   10 Query	SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2022-03-27T18:52:27.167320Z	   10 Query	USE `sample`
+2022-03-27T18:52:27.167708Z	   10 Query	set autocommit=1
+2022-03-27T18:52:30.837321Z	   11 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:52:30.839777Z	   11 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:52:30.841255Z	   11 Query	SELECT VERSION()
+2022-03-27T18:52:31.858338Z	   11 Query	show variables like '%general_log%'
+2022-03-27T18:52:31.865122Z	   11 Query	show variables like 'general_log_file'
+2022-03-27T18:52:51.040738Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T18:54:04.106100Z	   12 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:54:04.107342Z	   12 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:54:04.114499Z	   12 Query	SELECT VERSION()
+2022-03-27T18:54:05.120090Z	   12 Query	show variables like '%general_log%'
+2022-03-27T18:54:05.134363Z	   12 Query	show variables like 'general_log_file'
+2022-03-27T18:54:35.523585Z	   13 Connect	root@localhost on sample using TCP/IP
+2022-03-27T18:54:35.524095Z	   13 Query	SET AUTOCOMMIT = 0
+2022-03-27T18:54:35.524895Z	   13 Query	SELECT VERSION()
+2022-03-27T18:54:36.526736Z	   13 Query	show variables like '%general_log%'
+2022-03-27T18:54:36.532798Z	   13 Query	show variables like 'general_log_file'
+2022-03-27T18:54:49.192546Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T19:09:27.805178Z	   14 Connect	Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2022-03-27T19:09:27.805247Z	   14 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:10:37.430040Z	   15 Connect	Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2022-03-27T19:10:37.430108Z	   15 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:11:44.836734Z	    8 Query	ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY <secret>
+2022-03-27T19:11:59.700891Z	    8 Query	flush privileges
+2022-03-27T19:12:11.444418Z	   16 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:12:11.444504Z	   16 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-27T19:12:41.396638Z	   17 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:12:41.437724Z	   17 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-27T19:12:41.469939Z	   18 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:12:41.472919Z	   18 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-27T19:12:41.484653Z	   17 Query	SHOW BINARY LOGS
+2022-03-27T19:12:41.673936Z	   18 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 2026
+2022-03-27T19:13:49.985100Z	   19 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:13:49.991777Z	   19 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-27T19:13:50.039766Z	   20 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:13:50.041322Z	   20 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-27T19:13:50.043485Z	   19 Query	SHOW BINARY LOGS
+2022-03-27T19:13:50.051428Z	   20 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 2026
+2022-03-27T19:14:18.569990Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T19:14:18.866808Z	   19 Query	SELECT
+  COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+  COLUMN_COMMENT, COLUMN_TYPE
+FROM
+  information_schema.columns
+WHERE
+  table_schema='sample' AND table_name='products_product'
+ORDER BY ORDINAL_POSITION
+2022-03-27T19:21:01.227854Z	    8 Query	select * from products_product
+2022-03-27T19:21:01.603743Z	   10 Query	SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 8
+2022-03-27T19:21:02.161738Z	   10 Query	SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 39
+2022-03-27T19:21:02.176009Z	   10 Query	SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 39
+2022-03-27T19:21:02.391853Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T19:22:35.599419Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T19:22:50.975546Z	    8 Query	UPDATE table_name SET title = "something else"
+WHERE id = 1
+2022-03-27T19:23:24.228115Z	    8 Query	UPDATE products_product SET title = "something else"
+WHERE id = 1
+2022-03-27T19:32:28.642710Z	   21 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:32:28.642791Z	   21 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-27T19:32:51.747425Z	   22 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:32:51.747847Z	   22 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:32:51.748318Z	   22 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:32:51.890939Z	   22 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:32:51.891293Z	   22 Query	SHOW MASTER STATUS
+2022-03-27T19:32:51.891925Z	   22 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:32:51.898762Z	   23 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:32:51.899428Z	   23 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:32:51.916808Z	   23 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:32:52.051338Z	   23 Quit	
+2022-03-27T19:33:16.095907Z	   24 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:33:16.096218Z	   24 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:16.096552Z	   24 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:33:16.101449Z	   24 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:33:16.101775Z	   24 Query	SHOW MASTER STATUS
+2022-03-27T19:33:16.102379Z	   24 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:33:16.104114Z	   25 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:33:16.104536Z	   25 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:16.105638Z	   25 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:33:16.145121Z	   25 Quit	
+2022-03-27T19:33:16.606557Z	   26 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:33:16.606886Z	   26 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:16.607328Z	   26 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:33:16.611395Z	   26 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:33:16.611766Z	   26 Query	SHOW MASTER STATUS
+2022-03-27T19:33:16.612370Z	   26 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:33:16.614352Z	   27 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:33:16.614771Z	   27 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:16.615776Z	   27 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:33:16.631509Z	   27 Quit	
+2022-03-27T19:33:29.969374Z	   28 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:33:29.969702Z	   28 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:29.970261Z	   28 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:33:29.974782Z	   28 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:33:29.975192Z	   28 Query	SHOW MASTER STATUS
+2022-03-27T19:33:29.976011Z	   28 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:33:29.977959Z	   29 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:33:29.978413Z	   29 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:33:29.979422Z	   29 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:33:29.999032Z	   29 Quit	
+2022-03-27T19:34:05.144017Z	   30 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:34:05.144406Z	   30 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:34:05.144843Z	   30 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:34:05.150116Z	   30 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:34:05.150436Z	   30 Query	SHOW MASTER STATUS
+2022-03-27T19:34:05.151063Z	   30 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:34:05.152952Z	   31 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:34:05.153407Z	   31 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:34:05.154386Z	   31 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:34:05.173563Z	   31 Quit	
+2022-03-27T19:34:40.839368Z	   32 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:34:40.839771Z	   32 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:34:40.840214Z	   32 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:34:40.844638Z	   32 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:34:40.845122Z	   32 Query	SHOW MASTER STATUS
+2022-03-27T19:34:40.846873Z	   32 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:34:40.850590Z	   33 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:34:40.851261Z	   33 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:34:40.852506Z	   33 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:34:41.028242Z	   33 Quit	
+2022-03-27T19:36:21.168685Z	   34 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:36:21.169013Z	   34 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:36:21.169373Z	   34 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:36:21.173820Z	   34 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:36:21.174282Z	   34 Query	SHOW MASTER STATUS
+2022-03-27T19:36:21.174937Z	   34 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:36:21.176859Z	   35 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:36:21.177659Z	   35 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:36:21.178930Z	   35 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:36:51.223333Z	   35 Quit	
+2022-03-27T19:46:37.475485Z	   36 Connect	root@localhost on  using TCP/IP
+2022-03-27T19:46:37.475852Z	   36 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:46:37.476214Z	   36 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T19:46:37.480722Z	   36 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T19:46:37.481052Z	   36 Query	SHOW MASTER STATUS
+2022-03-27T19:46:37.481657Z	   36 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T19:46:37.483653Z	   37 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T19:46:37.484154Z	   37 Query	SET AUTOCOMMIT = 0
+2022-03-27T19:46:37.485191Z	   37 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T19:47:07.532180Z	   37 Quit	
+2022-03-27T20:02:20.114051Z	   38 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:02:20.114458Z	   38 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:02:20.114793Z	   38 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:02:20.118754Z	   38 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:02:20.119167Z	   38 Query	SHOW MASTER STATUS
+2022-03-27T20:02:20.119910Z	   38 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:02:20.121618Z	   39 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:02:20.122055Z	   39 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:02:20.123038Z	   39 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:03:08.745785Z	   40 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:03:08.746641Z	   40 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:03:08.747792Z	   40 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:03:08.752092Z	   40 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:03:08.752556Z	   40 Query	SHOW MASTER STATUS
+2022-03-27T20:03:08.754271Z	   40 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:03:08.757227Z	   41 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:03:08.757831Z	   41 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:03:08.759003Z	   41 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:03:20.200868Z	   39 Quit	
+2022-03-27T20:03:20.203374Z	   42 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:03:20.204341Z	   42 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:03:20.204912Z	   42 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:03:20.212624Z	   42 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:03:20.213758Z	   42 Query	SHOW MASTER STATUS
+2022-03-27T20:03:20.214645Z	   42 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:03:20.217112Z	   43 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:03:20.217725Z	   43 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:03:20.218827Z	   43 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:04:20.270736Z	   43 Quit	
+2022-03-27T20:04:20.274006Z	   44 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:04:20.274351Z	   44 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:04:20.274762Z	   44 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:04:20.278925Z	   44 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:04:20.279405Z	   44 Query	SHOW MASTER STATUS
+2022-03-27T20:04:20.280535Z	   44 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:04:20.282616Z	   45 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:04:20.283197Z	   45 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:04:20.284321Z	   45 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:05:20.354870Z	   45 Quit	
+2022-03-27T20:05:20.358195Z	   46 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:05:20.358661Z	   46 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:05:20.359103Z	   46 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:05:20.363171Z	   46 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:05:20.363744Z	   46 Query	SHOW MASTER STATUS
+2022-03-27T20:05:20.364495Z	   46 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:05:20.367627Z	   47 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:05:20.368256Z	   47 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:05:20.369392Z	   47 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:06:20.430926Z	   47 Quit	
+2022-03-27T20:06:20.433779Z	   48 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:06:20.434843Z	   48 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:06:20.435402Z	   48 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:06:20.439558Z	   48 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:06:20.440033Z	   48 Query	SHOW MASTER STATUS
+2022-03-27T20:06:20.440847Z	   48 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:06:20.442772Z	   49 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:06:20.443410Z	   49 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:06:20.444665Z	   49 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:07:20.501786Z	   49 Quit	
+2022-03-27T20:07:20.509783Z	   50 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:07:20.510841Z	   50 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:07:20.511616Z	   50 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-27T20:07:20.519406Z	   50 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-27T20:07:20.520176Z	   50 Query	SHOW MASTER STATUS
+2022-03-27T20:07:20.520880Z	   50 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-27T20:07:20.524581Z	   51 Connect	root@localhost on information_schema using TCP/IP
+2022-03-27T20:07:20.525725Z	   51 Query	SET AUTOCOMMIT = 0
+2022-03-27T20:07:20.527546Z	   51 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-27T20:07:33.924370Z	   52 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:07:33.932364Z	   52 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-27T20:07:33.964019Z	   53 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:07:33.965275Z	   53 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-27T20:07:33.967457Z	   52 Query	SHOW BINARY LOGS
+2022-03-27T20:07:34.132644Z	   53 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 2745
+2022-03-27T20:07:58.757113Z	    8 Query	UPDATE products_product SET title = "something else"
+WHERE id = 1
+2022-03-27T20:08:33.830300Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:08:33.997237Z	   52 Query	SELECT
+  COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+  COLUMN_COMMENT, COLUMN_TYPE
+FROM
+  information_schema.columns
+WHERE
+  table_schema='sample' AND table_name='products_product'
+ORDER BY ORDINAL_POSITION
+2022-03-27T20:08:43.002235Z	    8 Query	UPDATE products_product SET title = "something else"
+WHERE id = 1
+2022-03-27T20:09:00.849548Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:09:08.373107Z	    8 Query	UPDATE products_product SET title = "something else"
+WHERE id = 2
+2022-03-27T20:09:27.503421Z	    8 Query	UPDATE products_product SET title = "something else wow"
+WHERE id = 2
+2022-03-27T20:09:50.276859Z	    8 Query	UPDATE products_product SET title = "something else wow"
+WHERE id = 2
+2022-03-27T20:10:10.974060Z	    8 Query	UPDATE products_product SET title = "something else wow"
+WHERE id = 5
+2022-03-27T20:17:15.983352Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:17:47.277126Z	   54 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:17:47.282822Z	   54 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-27T20:17:47.304417Z	   55 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:17:47.305535Z	   55 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-27T20:17:47.307616Z	   54 Query	SHOW BINARY LOGS
+2022-03-27T20:17:47.318481Z	   55 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4639
+2022-03-27T20:18:20.701559Z	    8 Query	INSERT INTO products_product values (1333329, "some title from mysql nur", "some",999)
+2022-03-27T20:18:20.952849Z	   54 Query	SELECT
+  COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+  COLUMN_COMMENT, COLUMN_TYPE
+FROM
+  information_schema.columns
+WHERE
+  table_schema='sample' AND table_name='products_product'
+ORDER BY ORDINAL_POSITION
+2022-03-27T20:19:23.771583Z	   56 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:19:23.778989Z	   56 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-27T20:19:23.884239Z	   57 Connect	root@localhost on  using TCP/IP
+2022-03-27T20:19:23.885828Z	   57 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-27T20:19:23.888473Z	   56 Query	SHOW BINARY LOGS
+2022-03-27T20:19:23.897953Z	   57 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4989
+2022-03-27T20:19:53.826304Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5
+2022-03-27T20:19:53.973952Z	   56 Query	SELECT
+  COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+  COLUMN_COMMENT, COLUMN_TYPE
+FROM
+  information_schema.columns
+WHERE
+  table_schema='sample' AND table_name='products_product'
+ORDER BY ORDINAL_POSITION
+2022-03-27T20:21:49.810490Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:23:29.631948Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:24:13.462005Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:24:22.590603Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:25:55.866208Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:26:45.772239Z	    8 Query	select * from products_product
+2022-03-27T20:26:45.865448Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:26:46.039448Z	    8 Query	INSERT INTO products_product values (2, "some title from mysql", "some",999)
+2022-03-27T20:26:46.239361Z	    8 Query	INSERT INTO products_product values (3, "some else title from mysql", "some",999)
+2022-03-27T20:26:46.428842Z	    8 Query	INSERT INTO products_product values (4, "some title from mysql", "some",999)
+2022-03-27T20:26:46.560418Z	    8 Query	INSERT INTO products_product values (6, "some title from mysql nur", "some",999)
+2022-03-27T20:26:46.771817Z	    8 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T20:26:46.838259Z	    8 Query	INSERT INTO products_product values (17, "some title from mysql nur", "some",999)
+2022-03-27T20:26:46.971936Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T20:26:47.041362Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T20:26:47.276666Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T20:26:47.559680Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T20:26:47.703990Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:26:47.977613Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:26:48.069958Z	    8 Query	INSERT INTO products_product values (41431, "some title from mysql", "some",999)
+2022-03-27T20:26:48.170959Z	    8 Query	INSERT INTO products_product values (61431, "some title from mysql nur", "some",999)
+2022-03-27T20:26:48.335914Z	    8 Query	INSERT INTO products_product values (14127, "some title from mysql nur", "some",999)
+2022-03-27T20:26:48.568974Z	    8 Query	INSERT INTO products_product values (114317, "some title from mysql nur", "some",999)
+2022-03-27T20:26:48.757748Z	    8 Query	INSERT INTO products_product values (1123419, "some title from mysql nur", "some",999)
+2022-03-27T20:26:48.984870Z	    8 Query	INSERT INTO products_product values (1212439, "some title from mysql nur", "some",999)
+2022-03-27T20:26:49.118799Z	    8 Query	INSERT INTO products_product values (12229, "some title from mysql nur", "some",999)
+2022-03-27T20:26:49.475809Z	    8 Query	INSERT INTO products_product values (13121329, "some title from mysql nur", "some",999)
+2022-03-27T20:26:49.853591Z	    8 Query	INSERT INTO products_product values (13321349, "some title from mysql nur", "some",999)
+2022-03-27T20:26:50.525894Z	    8 Query	INSERT INTO products_product values (13332342319, "some title from mysql nur", "some",999)
+2022-03-27T20:26:50.761321Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:26:50.883831Z	    8 Query	INSERT INTO products_product values (133333239, "some title from mysql nur", "some",999)
+2022-03-27T20:26:51.025878Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:26:51.151864Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:26:51.251964Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5

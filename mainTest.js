@@ -10,9 +10,9 @@ const spinner = ora({
 const program = async () => {
   const connection = createConnection({
     host: "localhost",
-    user: "root",
-    password: "password",
-    port: 3306,
+    user: "test",
+    password: "12345678",
+    port: 3307,
   });
 
   const instance = new MySQLEvents(connection, {
@@ -23,7 +23,7 @@ const program = async () => {
 
   instance.addTrigger({
     name: "monitoring all statments",
-    expression: "sample.*", // listen to TEST database !!!
+    expression: "example.*", // listen to TEST database !!!
     statement: MySQLEvents.STATEMENTS.ALL, // you can choose only insert for example MySQLEvents.STATEMENTS.INSERT, but here we are choosing everything
     onEvent: (e) => {
       console.log(e);

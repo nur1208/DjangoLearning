@@ -17,8 +17,8 @@ def getConfig():
     try:
         conf.read("config.ini")
         host = "127.0.0.1"
-        port = 3306
-        user = "root"
+        port = 3307
+        user = "test"
         password = "12345678"
         db_name = "sample"
         charset = "utf8"

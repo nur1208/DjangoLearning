@@ -471,3 +471,298 @@ ORDER BY ORDINAL_POSITION
 2022-03-27T20:26:51.151864Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
 2022-03-27T20:26:51.251964Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
 WHERE id = 5
+2022-03-27T20:43:39.619161Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:45:26.341858Z	    8 Query	INSERT INTO products_product values (2, "some title from mysql", "some",999)
+2022-03-27T20:46:29.676045Z	    8 Query	select * from products_product
+2022-03-27T20:46:29.698125Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:46:29.972226Z	    8 Query	INSERT INTO products_product values (2, "some title from mysql", "some",999)
+2022-03-27T20:46:48.582020Z	    8 Query	select * from products_product
+2022-03-27T20:46:48.629257Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:46:48.661163Z	    8 Query	INSERT INTO products_product values (38972, "some title from mysql", "some",999)
+2022-03-27T20:46:48.908315Z	    8 Query	INSERT INTO products_product values (3, "some else title from mysql", "some",999)
+2022-03-27T20:46:49.124168Z	    8 Query	INSERT INTO products_product values (4, "some title from mysql", "some",999)
+2022-03-27T20:46:49.374640Z	    8 Query	INSERT INTO products_product values (6, "some title from mysql nur", "some",999)
+2022-03-27T20:46:49.593223Z	    8 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T20:46:49.708484Z	    8 Query	INSERT INTO products_product values (17, "some title from mysql nur", "some",999)
+2022-03-27T20:46:50.242657Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T20:46:50.524395Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T20:46:50.659040Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T20:46:50.911409Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T20:46:50.984508Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.116056Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.229895Z	    8 Query	INSERT INTO products_product values (41431, "some title from mysql", "some",999)
+2022-03-27T20:46:51.370565Z	    8 Query	INSERT INTO products_product values (61431, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.449553Z	    8 Query	INSERT INTO products_product values (14127, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.607711Z	    8 Query	INSERT INTO products_product values (114317, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.776650Z	    8 Query	INSERT INTO products_product values (1123419, "some title from mysql nur", "some",999)
+2022-03-27T20:46:51.860234Z	    8 Query	INSERT INTO products_product values (1212439, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.066648Z	    8 Query	INSERT INTO products_product values (12229, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.232275Z	    8 Query	INSERT INTO products_product values (13121329, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.312312Z	    8 Query	INSERT INTO products_product values (13321349, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.426944Z	    8 Query	INSERT INTO products_product values (13332342319, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.526008Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:46:52.802675Z	    8 Query	INSERT INTO products_product values (133333239, "some title from mysql nur", "some",999)
+2022-03-27T20:46:53.080620Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:46:53.449177Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:46:54.000191Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5
+2022-03-27T20:47:17.706145Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:47:44.190149Z	    8 Query	select * from products_product
+2022-03-27T20:47:44.208722Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:47:44.228759Z	    8 Query	INSERT INTO products_product values (38972, "some title from mysql", "some",999)
+2022-03-27T20:47:44.461172Z	    8 Query	INSERT INTO products_product values (3, "some else title from mysql", "some",999)
+2022-03-27T20:47:44.791880Z	    8 Query	INSERT INTO products_product values (4, "some title from mysql", "some",999)
+2022-03-27T20:47:45.042728Z	    8 Query	INSERT INTO products_product values (6, "some title from mysql nur", "some",999)
+2022-03-27T20:47:45.274813Z	    8 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T20:47:45.800876Z	    8 Query	INSERT INTO products_product values (17, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.163892Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.291716Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.425485Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.499752Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.676498Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.884603Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:47:46.989723Z	    8 Query	INSERT INTO products_product values (41431, "some title from mysql", "some",999)
+2022-03-27T20:47:47.066935Z	    8 Query	INSERT INTO products_product values (61431, "some title from mysql nur", "some",999)
+2022-03-27T20:47:47.183711Z	    8 Query	INSERT INTO products_product values (14127, "some title from mysql nur", "some",999)
+2022-03-27T20:47:47.310149Z	    8 Query	INSERT INTO products_product values (114317, "some title from mysql nur", "some",999)
+2022-03-27T20:47:47.482948Z	    8 Query	INSERT INTO products_product values (1123419, "some title from mysql nur", "some",999)
+2022-03-27T20:47:47.664608Z	    8 Query	INSERT INTO products_product values (1212439, "some title from mysql nur", "some",999)
+2022-03-27T20:47:47.918973Z	    8 Query	INSERT INTO products_product values (12229, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.064640Z	    8 Query	INSERT INTO products_product values (13121329, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.205990Z	    8 Query	INSERT INTO products_product values (13321349, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.396558Z	    8 Query	INSERT INTO products_product values (13332342319, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.483078Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.564166Z	    8 Query	INSERT INTO products_product values (133333239, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.648227Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:47:48.803892Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:47:49.073838Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5
+2022-03-27T20:48:04.776654Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:48:21.205214Z	    8 Query	select * from products_product
+2022-03-27T20:48:21.223326Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:48:21.449427Z	    8 Query	INSERT INTO products_product values (38972, "some title from mysql", "some",999)
+2022-03-27T20:48:21.613985Z	    8 Query	INSERT INTO products_product values (3, "some else title from mysql", "some",999)
+2022-03-27T20:48:22.040761Z	    8 Query	INSERT INTO products_product values (4, "some title from mysql", "some",999)
+2022-03-27T20:48:22.699945Z	    8 Query	INSERT INTO products_product values (6, "some title from mysql nur", "some",999)
+2022-03-27T20:48:22.898607Z	    8 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.080596Z	    8 Query	INSERT INTO products_product values (17, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.147488Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.270788Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.424866Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.492015Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.599471Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.745169Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:48:23.903201Z	    8 Query	INSERT INTO products_product values (41431, "some title from mysql", "some",999)
+2022-03-27T20:48:23.982217Z	    8 Query	INSERT INTO products_product values (61431, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.199181Z	    8 Query	INSERT INTO products_product values (14127, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.253513Z	    8 Query	INSERT INTO products_product values (114317, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.342265Z	    8 Query	INSERT INTO products_product values (1123419, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.431387Z	    8 Query	INSERT INTO products_product values (1212439, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.515310Z	    8 Query	INSERT INTO products_product values (12229, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.597664Z	    8 Query	INSERT INTO products_product values (13121329, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.700966Z	    8 Query	INSERT INTO products_product values (13321349, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.774615Z	    8 Query	INSERT INTO products_product values (13332342319, "some title from mysql nur", "some",999)
+2022-03-27T20:48:24.908035Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:48:25.066925Z	    8 Query	INSERT INTO products_product values (133333239, "some title from mysql nur", "some",999)
+2022-03-27T20:48:25.326876Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:48:25.441528Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:48:25.563735Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5
+2022-03-27T20:49:36.686466Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:49:50.394299Z	    8 Query	UPDATE products_product SET title = "something 3 else wow"
+WHERE id = 5
+2022-03-27T20:50:27.515106Z	    8 Query	UPDATE products_product SET title = "so7mething 3 else wow"
+WHERE id = 5
+2022-03-27T20:50:56.006044Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:51:15.100500Z	    8 Query	DELETE FROM products_product
+2022-03-27T20:51:21.555333Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:51:31.943571Z	    8 Query	select * from products_product
+2022-03-27T20:51:31.961459Z	   10 Query	SHOW INDEX FROM `sample`.`products_product`
+2022-03-27T20:51:32.131835Z	    8 Query	INSERT INTO products_product values (38972, "some title from mysql", "some",999)
+2022-03-27T20:51:32.433725Z	    8 Query	INSERT INTO products_product values (3, "some else title from mysql", "some",999)
+2022-03-27T20:51:32.557472Z	    8 Query	INSERT INTO products_product values (4, "some title from mysql", "some",999)
+2022-03-27T20:51:32.635040Z	    8 Query	INSERT INTO products_product values (6, "some title from mysql nur", "some",999)
+2022-03-27T20:51:32.718112Z	    8 Query	INSERT INTO products_product values (7, "some title from mysql nur", "some",999)
+2022-03-27T20:51:33.133948Z	    8 Query	INSERT INTO products_product values (17, "some title from mysql nur", "some",999)
+2022-03-27T20:51:33.503085Z	    8 Query	INSERT INTO products_product values (19, "some title from mysql nur", "some",999)
+2022-03-27T20:51:33.826485Z	    8 Query	INSERT INTO products_product values (129, "some title from mysql nur", "some",999)
+2022-03-27T20:51:33.961174Z	    8 Query	INSERT INTO products_product values (1229, "some title from mysql nur", "some",999)
+2022-03-27T20:51:34.202417Z	    8 Query	INSERT INTO products_product values (1329, "some title from mysql nur", "some",999)
+2022-03-27T20:51:34.443935Z	    8 Query	INSERT INTO products_product values (13329, "some title from mysql nur", "some",999)
+2022-03-27T20:51:34.651314Z	    8 Query	INSERT INTO products_product values (133329, "some title from mysql nur", "some",999)
+2022-03-27T20:51:34.759247Z	    8 Query	INSERT INTO products_product values (41431, "some title from mysql", "some",999)
+2022-03-27T20:51:35.018476Z	    8 Query	INSERT INTO products_product values (61431, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.097404Z	    8 Query	INSERT INTO products_product values (14127, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.203829Z	    8 Query	INSERT INTO products_product values (114317, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.324124Z	    8 Query	INSERT INTO products_product values (1123419, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.438235Z	    8 Query	INSERT INTO products_product values (1212439, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.540992Z	    8 Query	INSERT INTO products_product values (12229, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.602871Z	    8 Query	INSERT INTO products_product values (13121329, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.683237Z	    8 Query	INSERT INTO products_product values (13321349, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.795046Z	    8 Query	INSERT INTO products_product values (13332342319, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.873848Z	    8 Query	INSERT INTO products_product values (13333239, "some title from mysql nur", "some",999)
+2022-03-27T20:51:35.970927Z	    8 Query	INSERT INTO products_product values (133333239, "some title from mysql nur", "some",999)
+2022-03-27T20:51:36.041390Z	    8 Query	INSERT INTO products_product values (313333239, "some title from mysql nur", "some",999)
+2022-03-27T20:51:36.180797Z	    8 Query	INSERT INTO products_product values (133334239, "some title from mysql nur", "some",999)
+2022-03-27T20:52:08.485425Z	    8 Query	UPDATE products_product SET title = "so7mething 3 else wow"
+WHERE id = 9
+2022-03-27T20:52:24.486043Z	    8 Query	UPDATE products_product SET title = "so7metdhing 3 else wow"
+WHERE id = 9
+2022-03-27T20:53:07.252174Z	    8 Query	UPDATE products_product SET title = "so7metdhing 3 else wow"
+WHERE id = 2
+2022-03-27T20:53:36.208082Z	    8 Query	UPDATE products_product SET title = "so7metdhing 3 else wow"
+WHERE id = 133333239
+2022-03-27T23:52:30.280027Z	    8 Quit	
+2022-03-27T23:52:30.280898Z	   10 Quit	
+2022-03-28T11:15:26.251004Z	   58 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:26.251272Z	   58 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-28T11:15:26.394850Z	   59 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:26.394935Z	   59 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-28T11:15:41.223885Z	   60 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:41.223981Z	   60 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-28T11:15:47.506107Z	   61 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:47.506209Z	   61 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-28T11:15:52.268789Z	   62 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:52.269234Z	   62 Query	set autocommit=1
+2022-03-28T11:15:52.269691Z	   62 Query	SELECT current_user()
+2022-03-28T11:15:52.314039Z	   62 Query	SET CHARACTER SET utf8
+2022-03-28T11:15:52.314487Z	   62 Query	SET NAMES utf8
+2022-03-28T11:15:52.325731Z	   62 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2022-03-28T11:15:52.391201Z	   62 Query	SELECT CONNECTION_ID()
+2022-03-28T11:15:52.391709Z	   62 Query	show character set where charset = 'utf8mb4'
+2022-03-28T11:15:52.493835Z	   62 Query	SET NAMES 'utf8mb4'
+2022-03-28T11:15:52.537500Z	   62 Query	SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2022-03-28T11:15:52.540201Z	   62 Query	USE `sample`
+2022-03-28T11:15:52.540612Z	   62 Query	set autocommit=1
+2022-03-28T11:15:52.543587Z	   63 Connect	root@localhost on  using TCP/IP
+2022-03-28T11:15:52.543876Z	   63 Query	set autocommit=1
+2022-03-28T11:15:52.544160Z	   63 Query	SELECT current_user()
+2022-03-28T11:15:52.544476Z	   63 Query	SET CHARACTER SET utf8
+2022-03-28T11:15:52.544736Z	   63 Query	SET NAMES utf8
+2022-03-28T11:15:52.544986Z	   63 Query	SELECT CONNECTION_ID()
+2022-03-28T11:15:52.545277Z	   63 Query	show character set where charset = 'utf8mb4'
+2022-03-28T11:15:52.546498Z	   63 Query	SET NAMES 'utf8mb4'
+2022-03-28T11:15:52.546848Z	   63 Query	SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2022-03-28T11:15:52.549340Z	   63 Query	USE `sample`
+2022-03-28T11:15:52.549751Z	   63 Query	set autocommit=1
+2022-03-28T11:15:52.550094Z	   63 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2022-03-28T11:15:52.554488Z	   63 Query	SHOW SESSION VARIABLES LIKE 'version_comment'
+2022-03-28T11:15:52.558237Z	   63 Query	SHOW SESSION VARIABLES LIKE 'version'
+2022-03-28T11:15:52.562943Z	   63 Query	SELECT current_user()
+2022-03-28T11:15:52.563376Z	   63 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+2022-03-28T11:15:54.676761Z	   62 Query	SHOW DATABASES
+2022-03-28T11:15:54.744064Z	   63 Query	show engines
+2022-03-28T11:15:54.781960Z	   63 Query	show charset
+2022-03-28T11:15:54.812979Z	   63 Query	show collation
+2022-03-28T11:15:54.925102Z	   63 Query	show variables
+2022-03-28T11:15:54.930176Z	   63 Query	SHOW SESSION VARIABLES LIKE 'version_compile_os'
+2022-03-28T11:15:54.933785Z	   63 Query	SHOW SESSION VARIABLES LIKE 'offline_mode'
+2022-03-28T11:15:55.087284Z	   63 Query	SHOW SESSION VARIABLES LIKE 'wait_timeout'
+2022-03-28T11:15:55.091039Z	   63 Query	SHOW SESSION VARIABLES LIKE 'interactive_timeout'
+2022-03-28T11:15:57.640411Z	   62 Query	SHOW FULL TABLES FROM `sample`
+2022-03-28T11:15:57.932718Z	   62 Query	SHOW PROCEDURE STATUS WHERE Db='sample'
+2022-03-28T11:15:58.162799Z	   62 Query	SHOW FUNCTION STATUS WHERE Db='sample'
+2022-03-28T11:15:58.190542Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_group`
+2022-03-28T11:15:58.333412Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_group_permissions`
+2022-03-28T11:15:58.348662Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_permission`
+2022-03-28T11:15:58.352220Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_user`
+2022-03-28T11:15:58.356222Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_user_groups`
+2022-03-28T11:15:58.359964Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`auth_user_user_permissions`
+2022-03-28T11:15:58.365066Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`django_admin_log`
+2022-03-28T11:15:58.396920Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`django_content_type`
+2022-03-28T11:15:58.400398Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`django_migrations`
+2022-03-28T11:15:58.423725Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`django_session`
+2022-03-28T11:15:58.427353Z	   63 Query	SHOW FULL COLUMNS FROM `sample`.`products_product`
+2022-03-28T12:25:40.375699Z	   66 Connect	ODBC@localhost on  using SSL/TLS
+2022-03-28T12:25:40.375862Z	   66 Connect	Access denied for user 'ODBC'@'localhost' (using password: NO)
+2022-03-28T15:35:32.712132Z	   63 Query	UPDATE products_product SET title = "so7metdhing w3 else wow"
+WHERE id = 133333239
+2022-03-28T16:00:53.724736Z	   63 Query	CREATE USER 'canal'@'%' IDENTIFIED BY <secret>
+2022-03-28T16:01:11.480024Z	   63 Query	GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'canal'@'%'
+2022-03-28T16:01:26.569753Z	   63 Query	FLUSH PRIVILEGES
+2022-03-28T18:12:20.977353Z	   67 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:12:20.999093Z	   67 Query	select @@GLOBAL.binlog_checksum as checksum
+2022-03-28T18:12:21.075195Z	   68 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:12:21.076315Z	   68 Query	set @master_binlog_checksum=@@global.binlog_checksum
+2022-03-28T18:12:21.077817Z	   67 Query	SHOW BINARY LOGS
+2022-03-28T18:12:21.346597Z	   68 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 62194
+2022-03-28T18:12:34.810254Z	   63 Query	UPDATE products_product SET title = "so7eemetdhing w3 else wow"
+WHERE id = 133333239
+2022-03-28T18:12:35.001151Z	   67 Query	SELECT
+  COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+  COLUMN_COMMENT, COLUMN_TYPE
+FROM
+  information_schema.columns
+WHERE
+  table_schema='sample' AND table_name='products_product'
+ORDER BY ORDINAL_POSITION
+2022-03-28T18:14:01.422057Z	   69 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:14:01.432089Z	   69 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:14:01.432617Z	   69 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-28T18:14:01.437096Z	   69 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-28T18:14:01.437440Z	   69 Query	SHOW MASTER STATUS
+2022-03-28T18:14:01.438074Z	   69 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-28T18:14:01.447386Z	   70 Connect	root@localhost on information_schema using TCP/IP
+2022-03-28T18:14:01.463331Z	   70 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:14:01.466808Z	   70 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-28T18:14:30.698816Z	   70 Quit	
+2022-03-28T18:18:47.168782Z	   71 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:18:47.169187Z	   71 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:18:47.183611Z	   71 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-28T18:18:47.188806Z	   71 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-28T18:18:47.189133Z	   71 Query	SHOW MASTER STATUS
+2022-03-28T18:18:47.189738Z	   71 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-28T18:18:47.191864Z	   72 Connect	root@localhost on information_schema using TCP/IP
+2022-03-28T18:18:47.192365Z	   72 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:18:47.193694Z	   72 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-28T18:19:09.998710Z	   72 Quit	
+2022-03-28T18:19:10.798199Z	   73 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:19:10.813647Z	   73 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:19:10.817711Z	   73 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-28T18:19:10.822946Z	   73 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-28T18:19:10.823394Z	   73 Query	SHOW MASTER STATUS
+2022-03-28T18:19:10.824184Z	   73 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-28T18:19:10.826351Z	   74 Connect	root@localhost on information_schema using TCP/IP
+2022-03-28T18:19:10.826908Z	   74 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:19:10.828868Z	   74 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-28T18:19:26.503746Z	   74 Quit	
+2022-03-28T18:19:27.596901Z	   75 Connect	root@localhost on  using TCP/IP
+2022-03-28T18:19:27.597256Z	   75 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:19:27.597630Z	   75 Query	SHOW GLOBAL VARIABLES LIKE 'BINLOG_CHECKSUM'
+2022-03-28T18:19:27.602850Z	   75 Query	set @master_binlog_checksum= @@global.binlog_checksum
+2022-03-28T18:19:27.603196Z	   75 Query	SHOW MASTER STATUS
+2022-03-28T18:19:27.603850Z	   75 Binlog Dump	Log: 'DESKTOP-BK6ODRR-bin.000010'  Pos: 4
+2022-03-28T18:19:27.605601Z	   76 Connect	root@localhost on information_schema using TCP/IP
+2022-03-28T18:19:27.624082Z	   76 Query	SET AUTOCOMMIT = 0
+2022-03-28T18:19:27.628569Z	   76 Query	SELECT
+                        COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME,
+                        COLUMN_COMMENT, COLUMN_TYPE, COLUMN_KEY, ORDINAL_POSITION
+                    FROM
+                        information_schema.columns
+                    WHERE
+                        table_schema = 'sample' AND table_name = 'products_product'
+                    ORDER BY ORDINAL_POSITION
+2022-03-28T18:19:36.692680Z	   76 Quit	
+2022-03-28T19:30:24.601192Z	   63 Quit	
+2022-03-28T19:30:24.601944Z	   62 Quit	

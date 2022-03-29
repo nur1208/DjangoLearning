@@ -1,0 +1,5 @@
+- {TODO} listening to Mysql using canal-python
+- {TODO} test canal-python
+- {TODO} creating tables in ClickHouse using python's clickhouse_driver 
+- {TODO} moving mysql database to ClickHouse using python's clickhouse_driver
+- {TODO} checking the data in mysql and ClickHouse
